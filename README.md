@@ -3,7 +3,7 @@
 Setting up the project
 
 1. Start by setting up your the webserver. Navigate to pmaserver and install the node dependencies. Then run the server with the start script. This server serves up a single endpoint '/marketData' which sends back 500 rows of dummy data that have randomly generated values. Note: The numbers returned are randomly generated and will have wide changes each time they are requested.
-2. With the server running on port 1005, navigate to pmatest and install it's node dependencies. This is just a boilerplate create react app project. Run the start script to start the project. This project is set up to proxy all requests to the webserver from the first step.
+2. With the server running on port 1005, navigate to pmaui and install it's node dependencies. This is just a boilerplate create react app project. Run the start script to start the project. This project is set up to proxy all requests to the webserver from the first step.
 
 Your task
 
